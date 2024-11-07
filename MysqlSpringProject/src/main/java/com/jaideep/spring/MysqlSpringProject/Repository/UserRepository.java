@@ -7,5 +7,5 @@ import com.jaideep.spring.MysqlSpringProject.Models.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
-
+//User Repo
 }

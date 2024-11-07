@@ -18,15 +18,17 @@ public class User {
     private String name;
     private String descr;
     private Integer age;
-    
+    private Integer salary;
+
     public User() {
      
     }
     
-    public User(String name, String descr, Integer age) {
+    public User(String name, String descr, Integer age, Integer salary) {
         this.name = name;
         this.descr = descr;
         this.age = age;
+        this.salary = salary;
     }
     
     // Getter and setter methods are provided by Lombok annotations
