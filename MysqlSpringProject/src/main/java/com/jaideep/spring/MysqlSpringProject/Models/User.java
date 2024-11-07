@@ -13,6 +13,7 @@ import lombok.NoArgsConstructor;
 public class User {
     @Id
    // @GeneratedValue(strategy = GenerationType.AUTO)
+   //User Model
     private Long id;
    
     private String name;
@@ -34,6 +35,7 @@ public class User {
     // Getter and setter methods are provided by Lombok annotations
 
     // Getter methods
+    //New comment
     public Long getId() {
         return id;
     }
@@ -51,6 +53,7 @@ public class User {
     }
 
     // Setter methods
+    // new Setter methods
     public void setId(Long id) {
         this.id = id;
     }

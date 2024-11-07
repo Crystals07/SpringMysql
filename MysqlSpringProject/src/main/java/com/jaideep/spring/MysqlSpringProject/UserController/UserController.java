@@ -19,6 +19,7 @@ public class UserController {
 	    @Autowired
 	    private UserService userService;
 
+		// /User mapping
 	    @PostMapping("/User")
 	    public User saveUser(@RequestBody User user) {
 	    	System.out.println("@@ "+user.getName()+" "+user.getAge());
